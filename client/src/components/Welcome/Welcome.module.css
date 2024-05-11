@@ -1,0 +1,34 @@
+.article {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 5vw;
+  gap: 2vh;
+}
+
+.h1,
+.h2 {
+  color: white;
+  font-family: "Arista2.0";
+}
+.h1 {
+  font-size: 3.75em;
+  margin-top: 3vh;
+}
+.h2 {
+  margin-top: -2vh;
+  font-size: 11em;
+}
+
+.logo {
+  width: 25%;
+}
+
+.btn {
+  width: 25em;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.section {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h3 {
+  font-family: "Arista2.0";
+  color: white;
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  flex-direction: column;
+}
+.input {
+  height: 5vh;
+  width: 15em;
+  text-align: center;
+  font-family: "raleway";
+  border: transparent;
+  outline: none;
+}
+.submit {
+  background-color: transparent;
+  color: white;
+  border: solid white 3px;
+  cursor: pointer;
+  width: 15em;
+  height: 5vh;
+}
+.submit:hover {
+  background-color: #b85fb2a2;
+}
+
+.due {
+  color: white;
+  font-family: "raleway";
+  font-size: 1.7em;
+}
+.feedback {
+  color: white;
+  font-family: "raleway-heavy";
+  font-size: 1.8em;
+}

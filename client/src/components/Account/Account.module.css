@@ -1,0 +1,74 @@
+.section {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5vh;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  width: 6em;
+  z-index: 2;
+  right: 7.5em;
+  top: 5em;
+  cursor: pointer;
+}
+.avatar {
+  width: 17.5em;
+}
+.select {
+  height: 5vh;
+  width: 15em;
+  outline: none;
+  border: transparent;
+  text-align: center;
+  font-family: "raleway";
+}
+.idBox {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  justify-content: space-between;
+  height: 5vh;
+  width: 40em;
+  margin-right: 15em;
+}
+.p,
+.user {
+  font-size: 2em;
+  font-family: "Raleway-heavy";
+  font-weight: bold;
+  color: white;
+  width: 7.5em;
+  text-align: center;
+}
+.user {
+  background-color: white;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15em;
+  color: rgb(69, 68, 68);
+  font-family: "raleway";
+}
+
+@media (max-width: 786px) {
+  .icon {
+    right: 5em;
+    top: 5em;
+  }
+  .idBox {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    margin-right: unset;
+  }
+  .user {
+    height: 5vh;
+  }
+}

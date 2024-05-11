@@ -1,0 +1,5 @@
+.DS_Store
+.env
+.ROADMAP.md
+./node_modules
+**/node_modules
